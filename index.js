@@ -54,7 +54,7 @@ class FritzDevices {
         }
       }
       setInterval(() => {
-        // this.checkFritzOccupancy();
+        this.checkFritzOccupancy();
       }, updateInterval);
     });
   }
