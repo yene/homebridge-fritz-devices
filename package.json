@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-fritz-devices",
+  "version": "1.0.0",
+  "description": "Occupancy detection for Wi-Fi devices connected to a FRITZ!Box.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yene/homebridge-fritz-devices"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "fritz",
+    "occupancy"
+  ],
+  "engines": {
+    "node": ">=10.13.0",
+    "homebridge": ">=0.4.0"
+  },
+  "author": "Yannick Weiss",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "iconv-lite": "^0.4.24"
+  }
+}

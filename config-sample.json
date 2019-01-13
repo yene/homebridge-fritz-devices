@@ -1,0 +1,24 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+  "description": "Occupancy detection for Wi-Fi devices connected to a FRITZ!Box.",
+  "platforms": [
+    {
+      "platform": "FritzDevices",
+      "name": "Fritz Devices",
+      "fritzIP": "192.168.1.1",
+      "fritzUsername": "",
+      "fritzPassword": "routerpassword",
+      "devices": [
+        {
+          "name": "My iPhone",
+          "mac": "00:0A:02:0B:03:0C"
+        }
+      ]
+    }
+  ]
+}
